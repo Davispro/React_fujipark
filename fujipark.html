@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fujipark</title>
+  <!-- bootstrap css cdn -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./src/stylesheets/all.css">
+  <link rel="stylesheet" href="./src/stylesheets/fujipark.css">
+</head>
+
+<body>
+  <section id="nav">
+    <div class="nav_wrap">
+      <nav class="nav_style navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
+              class="d-inline-block align-text-top">
+            Bootstrap
+          </a>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="nav_font navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">設施概要</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#scrollspyHeading2">碧露台</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#scrollspyHeading3">餐廳＆咖啡廳＆商店</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#scrollspyHeading4">享受日本的四季</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#scrollspyHeading5">交通地圖</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="#">
+            <img src="../imgs/ar-logo.png" alt="" class="logo_right d-none d-lg-flex ">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <img id="pagetop" class="pagetop_btn" src="./imgs/pagetop.png" alt="">
+
+  <section id="vedio" class="section_vedio">
+    <div class="vedio_hover d-flex justify-content-center">
+      <img class="hover_img align-self-center" src="./imgs/vedio_hover_lg.png" alt="">
+    </div>
+    <div class="vedio_wrap">
+      <video class="vedio_style" preload="none" autoplay loop muted playsinline controls>
+        <source src="../imgs/fujimi.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+  </section>
+
+  <section id="carousel">
+    <div class="carousel_wrap">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imgs/carousel1.jpg" class="d-block w-100 carousel_pic" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imgs/carousel2.jpg" class="d-block w-100 carousel_pic" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imgs/carousel3.jpg" class="d-block w-100 carousel_pic" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imgs/carousel4.jpg" class="d-block w-100 carousel_pic" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imgs/carousel5.jpg" class="d-block w-100 carousel_pic" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span aria-hidden="true">
+            <img class="carousel_btn" src="./imgs/prev-btn.png" alt="">
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span aria-hidden="true">
+            <img class="carousel_btn" src="./imgs/next-btn.png" alt="">
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <hr class="hr-font">
+  </section>
+
+  <section id="information">
+    <div class="info_container">
+
+      <div class="one_wrap">
+        <div class="info_one d-flex flex-column justify-content-center">
+          <h2 id="scrollspyHeading1" class="h2-font ">設施概要</h2>
+          <p class="p-font p-margin-one">乘坐纜車前往葛城山山頂的絕景勝地！
+            <br>
+            在能夠遠眺雄偉富士山的開放式露台，您可以享受到別處無法體驗到的非凡日常。
+          </p>
+          <img src="../imgs/info_one_pic.jpg" class="info_one_pic d-flex align-self-center" alt="">
+          <p class="p-font p-margin-one">
+            「伊豆全景公園」是由絕景綿延至葛城山山頂的天空露台山頂區，以及聚集了許多商家與餐廳的山腳區所組成的一座一日遊度假設施。在這裡，您可以透過搭乘纜車前往各區。
+          </p>
+        </div>
+      </div>
+      <hr class="hr-font">
+
+      <div class="two_wrap">
+        <div class="info_two">
+          <h2 id="scrollspyHeading2" class="h2-font mb-110">碧露台</h2>
+          <span class="d-flex flex-row">
+            <img src="../imgs/info_two_pic.jpg" class="info_two_pic" alt="">
+            <p class="p-font info_two_p p-margin-two">
+              「碧露台」是一處展望廣場。上面有使用水盤而做成的觀景台，並且配有沙發和長椅，讓旅客能夠自由地放鬆坐著。在凝視著一望無際的壯麗景色中，您也會跟著沈浸於只有在山頂上才能體驗到的開闊感，這絕對是最幸福的時刻！您還可以用一手拿著咖啡或啤酒等喜歡的飲品，盡情享受交織在天空、陽光、大海、富士山美景中的「碧露台」！
+              <br>
+              與碧露台相鄰的葛城神社，以可追朔至平安時代的歷史為豪，而這也正是葛城山名稱的由來。
+            </p>
+          </span>
+        </div>
+      </div>
+      <hr class="hr_three_top">
+
+      <div class="three_wrap">
+        <div class="info_three">
+          <h2 id="scrollspyHeading3" class="h2-font mb-60">餐廳＆咖啡廳＆商店</h2>
+
+          <div class="shop">
+            <span class="shop_span d-md-flex flex-md-row d-sm-flex flex-sm-column  ">
+
+              <img src="../imgs/info_three_pic_1.jpg" class="col-md-5 shop_img" alt="">
+
+              <span class="content_bg d-flex flex-column justify-content-center">
+                <h4 class="h4_font_padding h4-font mb-md-30">TRATTORIA IZU PARADISO</h4>
+                <p class="p-font p_font_padding">山腳下的義大利餐廳「Trattoria Izu
+                  Paradiso」擁有寬敞的室內空間，您可以在這裡享用使用當地食材烹製的道地義大利美食，以及手工麵糰下去製作的披薩。另外，您還可以在露台座位與寵物共度美好的時光。
+                  【営業時間】11:00～15:00（最終點餐時間為14:00）</p>
+              </span>
+            </span>
+          </div>
+          <div class="shop">
+            <span class="shop_span d-md-flex flex-md-row d-sm-flex flex-sm-column  ">
+
+              <img src="../imgs/info_three_pic_2.jpg" class="col-md-5 shop_img" alt="">
+
+              <span class="content_bg d-flex flex-column justify-content-center">
+                <h4 class="h4_font_padding h4-font mb-md-30">葛城茶寮</h4>
+                <p class="p-font p_font_padding">位在山頂區碧露台的「葛城茶寮」，擁有日式現代裝潢以及觀景席，讓您可以一邊眺望風景一邊享用日本特有的抹茶料理及日式點心。
+                  【営業時間】9:00～17:30（冬季到17:00）</p>
+              </span>
+            </span>
+          </div>
+          <div class="shop">
+            <span class="shop_span d-md-flex flex-md-row d-sm-flex flex-sm-column  ">
+
+              <img src="../imgs/info_three_pic_3.jpg" class="col-md-5 shop_img" alt="">
+
+              <span class="content_bg d-flex flex-column justify-content-center">
+                <h4 class="h4_font_padding h4-font mb-md-30">葛城珈琲</h4>
+                <p class="p-font p_font_padding">同樣位在山頂區碧露台的「葛城珈琲」，提供滴濾咖啡、咖啡拿鐵和原創無酒精雞尾酒等等，講究又特別的飲品菜單。
+                  【営業時間】9:00～17:30（冬季到17:00）</p>
+              </span>
+            </span>
+          </div>
+          <div class="shop">
+            <span class="shop_span d-md-flex flex-md-row d-sm-flex flex-sm-column  ">
+
+              <img src="../imgs/info_three_pic_4.jpg" class="col-md-5 shop_img" alt="">
+
+              <span class="content_bg d-flex flex-column justify-content-center">
+                <h4 class="h4_font_padding h4-font mb-md-30">伊豆的旬彩市場</h4>
+                <p class="p-font p_font_padding">
+                  在山腳下的伊豆旬彩市場裡，除了可以購入伊豆的著名點心和人氣的當地特產外，每個角落都擺滿了與伊豆相關的商品。擁有富士山特產、抹茶商品、充滿當地特色的原創商品等等，是一處樣式非常豐富的購物空間。
+                  【営業時間】9:00～18:00（冬季到17:30）</p>
+              </span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+      <hr class="hr-font">
+    </div>
+
+  </section>
+
+  <section id="location_map">
+    <div class="map_wrap mb-60">
+      <h2 id="scrollspyHeading5" class="h2-font mb-60">交通地圖</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3885.4047111169!2d138.9272936767117!3d35.02615508360441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601993b0490b9d4f%3A0x1379d6c17cb9191a!2z5LyK6LGG5YWo5pmv5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1681464381101!5m2!1szh-TW!2stw"
+        class="map_size mb-30" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <span class="map_context_w d-flex justify-content-center">
+        <span class="map_content">
+          <div class="top_content">
+            <p class="p-font">位於伊豆半島的中央部，不管是乘坐電車或是自行開車都可以抵達的交通便利之處。</p>
+            <br>
+            <p class="p-font-bolder">開車前來的旅客：</p>
+            <p class="p-font">從東名高速公路沼津IC或新東名高速公路長泉沼津IC，走東駿河灣環狀道路，經過伊豆中央道路後，在長岡IC下車約1分鐘抵達。
+              從下田、修善寺方向前來，經過修善寺道路後，在長岡IC下車約1分鐘抵達。</p>
+            <br>
+            <p class="p-font-bolder">搭乘電車前來的旅客：</p>
+            <p class="p-font ">從東海道新幹線或是JR東海道的三島站換乘伊豆箱根鐵道駿豆線後，在伊豆長岡站下車。
+              換乘伊豆箱根巴士，坐上往「長剛溫泉循環」或「伊豆三津海洋樂園」方向的車次，並在「伊豆之國市役所前」下車。步行約1~2分鐘抵達。
+            </p>
+          </div>
+          <div class="d-flex flex-column">
+            <div class="d-md-flex flex-md-row mb-30">
+              <p class="p_mb p-font-bolder col-md-8 ">伊豆之國市觀光協會</p>
+              <button class="web_link">官方網站
+                <svg class="right_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                  <path
+                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="d-md-flex flex-md-row mb-30">
+              <p class="p_mb p-font-bolder col-md-8 ">“Guidoor”</p>
+              <button class="web_link">官方網站
+                <svg class="right_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                  <path
+                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </span>
+      </span>
+
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footer_wrap d-flex flex-column">
+
+      <div class="footer_content d-none d-md-flex justify-content-center align-self-center">
+        <ul class="footer_ul">
+          <span class="d-flex flex-row">
+            <img class="footer_icon" src="./imgs/icon/footer-icon01.png" alt="">
+            <div class="ul_title"> パークガイド</div>
+          </span>
+          <li class="li_font">パノラマパークとは</li>
+          <li class="li_font">山頂エリア</li>
+          <li class="li_font">山麓エリア</li>
+          <li class="li_font">おすすめの過ごし方</li>
+          <li class="li_font">ライブカメラ</li>
+        </ul>
+        <ul class="footer_ul">
+          <span class="d-flex flex-row">
+            <img class="footer_icon" src="./imgs/icon/footer-icon02.png" alt="">
+            <div class="ul_title"> パークガイド</div>
+          </span>
+          <li class="li_font">パノラマパークとは</li>
+          <li class="li_font">山頂エリア</li>
+          <li class="li_font">山麓エリア</li>
+          <li class="li_font">おすすめの過ごし方</li>
+          <li class="li_font">ライブカメラ</li>
+        </ul>
+        <ul class="footer_ul">
+          <span class="d-flex flex-row">
+            <img class="footer_icon" src="./imgs/icon/footer-icon03.png" alt="">
+            <div class="ul_title"> パークガイド</div>
+          </span>
+          <li class="li_font">パノラマパークとは</li>
+          <li class="li_font">山頂エリア</li>
+          <li class="li_font">山麓エリア</li>
+          <li class="li_font">おすすめの過ごし方</li>
+          <li class="li_font">ライブカメラ</li>
+        </ul>
+        <ul class="footer_ul">
+          <span class="d-flex flex-row">
+            <img class="footer_icon" src="./imgs/icon/footer-icon04.png" alt="">
+            <div class="ul_title"> パークガイド</div>
+          </span>
+          <li class="li_font">パノラマパークとは</li>
+          <li class="li_font">山頂エリア</li>
+          <li class="li_font">山麓エリア</li>
+          <li class="li_font">おすすめの過ごし方</li>
+          <li class="li_font">ライブカメラ</li>
+        </ul>
+      </div>
+
+      <ul class="ul_content d-none d-md-flex align-self-center">
+        <li class="li_row"> FAQ</li>
+        <li class="li_row"> お問合せ</li>
+      </ul>
+      <div class="bottom_content d-flex flex-column ">
+        <img class="footer_logo align-self-center" src="./imgs/icon/footer-logo.png" alt="">
+        <div class="d-flex flex-row align-self-center">
+          <img class="footer_icon" src="./imgs/icon/footer-map-icon.png" alt="">
+          <p class="footer_p">静岡県伊豆の国市長岡260-1</p>
+        </div>
+        <div class="d-flex flex-row align-self-center">
+          <img class="footer_icon" src="./imgs/icon/footer-tel-icon.png" alt="">
+          <p class="footer_p">055-948-1525</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="../jquery-3.6.3.js"></script>
+
+  <script>
+    // pagetop button
+    $('#pagetop').click(function () {
+      $('html, body').animate({ scrollTop: 0 }, 300)
+    })
+
+    // Navbar change
+    let lastScroll = 0;
+
+    $(window).scroll(function () {
+      const nowScroll = $(window).scrollTop();
+      console.log(lastScroll);
+      if (nowScroll > lastScroll) {
+        // 往下
+        console.log('往下');
+        $('nav').addClass('short')
+      }
+      if(nowScroll==0){
+        $('nav').removeClass('short')
+      }
+
+      lastScroll = nowScroll
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+
+/* #region  Shrink */
+
+.shrink_wrap{
+  width: 1600px;
+  gap:2px;
+}
+
+.img_wrap{
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+  width: 300px;
+  height: 693px;
+  overflow: hidden;
+  transition: 0.5s;
+  justify-content: center;
+}
+
+.img_wrap:hover{
+  width: 1090px;
+  height: 693px;
+}
+
+
+.img_one{
+  width: 1072px;
+  height: 930px;
+}
+
+
+
+/* #endregion */
+
+/* #region Balloon */
+
+.balloon_wrap{
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  gap: 100px;
+}
+
+.circle_one{
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  transition:  0.5s;
+}
+
+.hover_wrap{
+  width: fit-content;
+  height: fit-content;
+}
+
+/* #endregion */
