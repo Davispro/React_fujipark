@@ -1,12 +1,11 @@
-
 /* #region  Shrink */
 
-.shrink_wrap{
+.shrink_wrap {
   width: 1600px;
-  gap:2px;
+  gap: 2px;
 }
 
-.img_wrap{
+.img_wrap {
   display: flex;
   flex-direction: row;
   min-width: 100px;
@@ -17,13 +16,13 @@
   justify-content: center;
 }
 
-.img_wrap:hover{
+.img_wrap:hover {
   width: 1090px;
   height: 693px;
 }
 
 
-.img_one{
+.img_one {
   width: 1072px;
   height: 930px;
 }
@@ -34,22 +33,61 @@
 
 /* #region Balloon */
 
-.balloon_wrap{
+
+.center_circle {
   display: flex;
-  flex-direction: row;
-  margin: 50px;
-  gap: 100px;
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 0.5;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 750px;
+  height: 750px;
+  left: 550px;
 }
 
-.circle_one{
+.balloon_wrap_one {
+  display: flex;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 100px;
+  gap: 300px;
+}
+
+.balloon_wrap_two {
+  display: flex;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.balloon_wrap_three {
+  display: flex;
+  z-index: 2;
+  flex-direction: row-reverse;
+  margin-right: 500px;
+}
+
+.circle_one {
   display: flex;
   justify-content: center;
-  width: 350px;
-  height: 350px;
-  transition:  0.5s;
+  width: 500px;
+  height: 500px;
+  transition: 0.5s;
 }
 
-.hover_wrap{
+.circle_two {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+.hover_wrap {
   width: fit-content;
   height: fit-content;
 }

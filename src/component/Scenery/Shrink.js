@@ -5,7 +5,7 @@ function Shrink() {
   return (
     <>
       <h1>Shrink</h1>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center mb-5">
         <div className="shrink_wrap d-flex flex-row justify-content-center">
           <div className="img_wrap">
             <img className="img_one " src="imgs/img_01_sp.png" alt="" />
