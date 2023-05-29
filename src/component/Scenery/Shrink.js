@@ -4,7 +4,10 @@ import styles from '../../stylesheets/scenery.css'
 function Shrink() {
   return (
     <>
-      <h1>Shrink</h1>
+      <div className="d-flex justify-content-center">
+        <img className="shrink_logo" src="imgs/page-logo.png" alt="" />
+      </div>
+
       <div className="d-flex justify-content-center mb-5">
         <div className="shrink_wrap d-flex flex-row justify-content-center">
           <div className="img_wrap">

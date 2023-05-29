@@ -1,5 +1,12 @@
 /* #region  Shrink */
 
+.shrink_logo{
+  display: flex;
+  margin: 100px;
+  align-self: center;
+  width: 1000px;
+}
+
 .shrink_wrap {
   width: 1600px;
   gap: 2px;

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../stylesheets/fujipark.css'
+// import Iframe from 'react-iframe'
 
 // npm video-react
 
@@ -14,26 +15,29 @@ function Vedio() {
             alt=""
           />
         </div>
-        {/* <div class="vedio_wrap"> */}
-        {/* FIXME:寬度無法調整 */}
-        <iframe
-          className="vedio_style"
-          src="imgs/fujimi.mp4"
-          allow="accelerometer; autoplay; muted;controls"
-          allowfullscreen
-          // preload="none"
-          // autoplay
-          // loop
-          // muted
-          // playsinline
-          // controls
-        ></iframe>
-        {/* <video class="vedio_style" preload="none" autoplay loop muted playsinline controls>
-        <source src="../imgs/fujimi.mp4" type="video/mp4">
-        <source src="movie.ogg" type="video/ogg">
-        Your browser does not support the video tag.
-      </video> */}
-        {/* </div> */}
+        {/* <div class="vedio_wrap">
+          <iframe
+            className="vedio_style"
+            src="imgs/fujimi2.mp4"
+            allow="autoplay; encrypted-media"
+            // allow="accelerometer; autoplay; muted;controls"
+            allowfullscreen="true"
+            autoPlay="true"
+          ></iframe>
+        </div> */}
+        <div className="vedio_wrap">
+          <video
+            class="vedio_style"
+            preload="none"
+            autoPlay
+            loop
+            muted
+            playsinline
+            controls
+          >
+            <source src="imgs/fujimi.mp4" type="video/mp4"></source>
+          </video>
+        </div>
       </section>
     </>
   )

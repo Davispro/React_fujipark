@@ -44,7 +44,7 @@ function Fujipark() {
         src="imgs/pagetop.png"
         alt=""
       />
-      {/* <Vedio /> */}
+      <Vedio />
       <Carousel />
       <Information />
       <LocationMap />
